@@ -1,0 +1,19 @@
+# =========================
+# Redis Configuration
+# =========================
+#spring:
+#  redis:
+#    host: localhost
+#    port: 6379
+#    timeout: 5000
+#
+#
+## =========================
+## Kafka Configuration
+## =========================
+#kafka:
+#  bootstrap-servers: localhost:9092
+#  consumer:
+#    group-id: tax_group
+#  admin:
+#    auto-create: false
