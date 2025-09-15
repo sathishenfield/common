@@ -48,7 +48,7 @@ public class Client {
     private String taxResidencyCountry;
 
     @Column(name = "kyc_status")
-    private String kycStatus = "PENDING";
+    private String kycStatus;
 
     @Column(name = "risk_profile")
     private String riskProfile;

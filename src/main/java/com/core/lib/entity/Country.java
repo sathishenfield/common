@@ -27,7 +27,8 @@ public class Country {
     @Column(name = "country_code", unique = true, nullable = false)
     private String countryCode;
 
-    private String name;
+    @Column(name = "country_name")
+    private String countryName;
 
     @Column(name = "dialing_code")
     private String dialingCode;
