@@ -1,4 +1,4 @@
-package com.core.lib.dto.onboarding;
+package com.core.lib.model;
 
 import lombok.Getter;
 import lombok.Setter;
@@ -37,4 +37,6 @@ public class ClientDto {
     private CountryDto country;
 
     private Long custodianId;
+
+    private String createdBy;
 }

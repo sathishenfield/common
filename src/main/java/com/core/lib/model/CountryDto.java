@@ -1,4 +1,4 @@
-package com.core.lib.dto.onboarding;
+package com.core.lib.model;
 
 import lombok.Getter;
 import lombok.Setter;

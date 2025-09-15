@@ -67,7 +67,7 @@ public class Client {
     @Column(name = "created_by", updatable = false,nullable = false)
     private String createdBy;
 
-    @Column(name = "updated_by",nullable = false)
+    @Column(name = "updated_by")
     private String updatedBy;
 
     @ManyToOne
